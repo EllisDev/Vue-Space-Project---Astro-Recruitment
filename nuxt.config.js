@@ -35,7 +35,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-
+    { src: 'node_modules/vue-rellax/lib/nuxt-plugin', ssr: false }
   ],
 
   /*

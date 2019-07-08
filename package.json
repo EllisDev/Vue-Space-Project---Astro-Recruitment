@@ -13,7 +13,7 @@
   "dependencies": {
     "aos": "^3.0.0-beta.6",
     "nuxt": "^2.0.0",
-    "rellax": "^1.10.0"
+    "vue-rellax": "^0.1.0"
   },
   "devDependencies": {
     "tailwindcss": "^1.0.0",

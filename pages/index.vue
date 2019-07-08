@@ -1,13 +1,16 @@
 <template>
-  <hero />
+  <div>
+    <hero />
+  <div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+  </div>
 </template>
 
 <script>
-import hero from "~/components/hero.vue";
+import Hero from "~/components/Hero.vue";
 
 export default {
   components: {
-    hero
+    Hero
   }
 }
 </script>

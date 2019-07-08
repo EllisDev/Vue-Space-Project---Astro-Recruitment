@@ -1,21 +1,49 @@
 <template>
 <div class="main-container">
+      <div 
+
+      v-rellax="{
+                        // Rellax Options
+                        // See: https://github.com/dixonandmoe/rellax#features
+                        speed: -3
+                  }"
+      
+      
+      class="space-man-holder"></div>
 
       <div class="heroholder">
-
-            <div class="hero-content">
+            <div 
+            v-rellax="{
+                        // Rellax Options
+                        // See: https://github.com/dixonandmoe/rellax#features
+                        speed: -5
+                  }"
+            class="hero-content">
 
                   <h1>Thinking Bigger Than Ever Before, Today.</h1>
                   <p>Sometimes looking for great talent can feel out of this world. But we connect businesses just like yours to some of the greatest creatives in the world. Whether you are looking for someone part-time or full time we’ve got the creatives your business deserves. </p>
 
-                  <p class="sidepanel">SPACE SEQUENCE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp VOLUME #1240</p>
-
-                  <p class="scrolldown"><img src="../assets/img/scroll-down.png"></p>
+                  
 
                   <a href="#"><div class="btn">Find a Job</div></a>
             </div>
+            
       </div>
-     
+
+      <div
+       
+              v-rellax="{
+                        // Rellax Options
+                        // See: https://github.com/dixonandmoe/rellax#features
+                        speed: -2
+                  }"
+            
+            
+      
+       class="side-items">
+            <p class="sidepanel">SPACE SEQUENCE &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp VOLUME #1240</p>
+            </div>
+      <p class="scrolldown"><img src="../assets/img/scroll-down.png"></p>
 </div>
 
 </template>
@@ -27,6 +55,18 @@
 
 
 <style scoped>
+
+
+.space-man-holder {
+      background-image: url(../assets/img/space-man.png);
+      background-repeat: no-repeat;
+      height: 610px;
+      position: absolute;
+      z-index: 999;
+      width: 40%;
+      right: 0;
+      bottom: 10%;
+}
 
 .btn {
       border: 1px solid #fff;
@@ -62,7 +102,7 @@
 }
 
 .heroholder {
-      background-image: url(../assets/img/background.png);
+      background-image: url(../assets/img/space-bg.png);
       height: 100vh;
       background-size: cover;
       background-position: right;
@@ -71,11 +111,14 @@
 }
 
 .sidepanel {
-      position: absolute;
-      bottom: 50%;
+  
       transform: rotate(270deg);
-      left: -10px;
       font-size: 0.625em;
+}
+
+.side-items {
+    position: absolute;
+      bottom: 50%;
 }
 
 .hero-content {
@@ -134,7 +177,7 @@ p {
       }
 
       .sidepanel {
-            left: -61px;
+            left: -140px;
       }
 }
 
