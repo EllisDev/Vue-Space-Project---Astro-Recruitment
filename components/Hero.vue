@@ -5,7 +5,7 @@
       v-rellax="{
                         // Rellax Options
                         // See: https://github.com/dixonandmoe/rellax#features
-                        speed: -3
+                        speed: 2
                   }"
       
       
@@ -16,7 +16,7 @@
             v-rellax="{
                         // Rellax Options
                         // See: https://github.com/dixonandmoe/rellax#features
-                        speed: -5
+                        speed: -2
                   }"
             class="hero-content">
 
@@ -62,7 +62,7 @@
       background-repeat: no-repeat;
       height: 610px;
       position: absolute;
-      z-index: 999;
+      z-index: 5;
       width: 40%;
       right: 0;
       bottom: 10%;
@@ -91,6 +91,7 @@
 }
 
 .main-container {
+      overflow: hidden;
 }
 
 .scrolldown {
